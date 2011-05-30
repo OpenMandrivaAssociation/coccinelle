@@ -39,7 +39,7 @@ drivers in the Linux kernel.
 
 %package doc
 Summary:        Documentation for %{name}
-Group:          Development/Libraries
+Group:          Development/C
 Requires:       %{name} = %{version}-%{release}
 
 
@@ -49,7 +49,7 @@ The %{name}-doc package contains documentation for %{name}.
 
 %package examples
 Summary:        Examples for %{name}
-Group:          Development/Libraries
+Group:          Development/C
 Requires:       %{name} = %{version}-%{release}
 
 
