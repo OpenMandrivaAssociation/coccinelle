@@ -15,7 +15,7 @@ Name:           %{name}
 Version:        %{versionbase}.%{releasecandidate}
 Release:        %{release}
 Summary:        Semantic patching for Linux (spatch)
-Group:          Development/Libraries
+Group:          Development/C
 License:        GPLv2
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:            http://coccinelle.lip6.fr/
