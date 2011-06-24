@@ -135,6 +135,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/%{name}/
 %{python_sitelib}/coccilib/
 %{_mandir}/man1/*.1*
+%{_mandir}/man3/*.3*
 %{_libdir}/*.so
 %if !%opt
 %config(noreplace) /etc/prelink.conf.d/%{name}.conf
