@@ -2,8 +2,8 @@
 %define debug_package %{nil}
 %define name coccinelle
 %define versionbase 1.0.0
-%define releasecandidate rc3
-%define release %mkrel 1
+%define releasecandidate rc4
+%define release 1
 %define versioncomplete %{versionbase}-%{releasecandidate}
 
 %if !%opt
