@@ -57,7 +57,6 @@ Requires:       %{name} = %{version}-%{release}
 The %{name}-examples package contains examples for %{name}.
 
 
-
 %prep
 %setup -q -n %{name}-%{versioncomplete}
 
@@ -123,12 +122,7 @@ LD_LIBRARY_PATH=. \
 ./spatch.opt -cocci_file demos/simple.cocci demos/simple.c
 
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
-
 %files
-%defattr(-,root,root,-)
 %doc authors.txt bugs.txt changes.txt copyright.txt
 %doc credits.txt install.txt license.txt readme.txt
 %{_bindir}/spatch
@@ -143,10 +137,8 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %files doc
-%defattr(-,root,root,-)
 %doc docs
 
 
 %files examples
-%defattr(-,root,root,-)
 %doc demos
