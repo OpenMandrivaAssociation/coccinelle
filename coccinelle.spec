@@ -82,15 +82,15 @@ done
 
 # Note that _smp_mflags breaks the build.
 %if !%opt
-make all
+%make all
 %else
-make all opt
+%make all opt
 %endif
 
 
 %install
 rm -rf $RPM_BUILD_ROOT
-make DESTDIR=$RPM_BUILD_ROOT install
+%make DESTDIR=$RPM_BUILD_ROOT install
 
 %if %opt
 # Just the native code version.
