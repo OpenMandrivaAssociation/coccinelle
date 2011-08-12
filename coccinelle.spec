@@ -2,7 +2,7 @@
 %define debug_package %{nil}
 %define name coccinelle
 %define versionbase 1.0.0
-%define releasecandidate rc4
+%define releasecandidate rc5
 %define release 1
 %define versioncomplete %{versionbase}-%{releasecandidate}
 
