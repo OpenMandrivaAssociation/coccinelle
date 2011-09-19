@@ -2,7 +2,7 @@
 %define debug_package %{nil}
 %define name coccinelle
 %define versionbase 1.0.0
-%define releasecandidate rc5
+%define releasecandidate rc7
 %define release 1
 %define versioncomplete %{versionbase}-%{releasecandidate}
 
@@ -81,9 +81,9 @@ done
 
 # Note that _smp_mflags breaks the build.
 %if !%opt
-%make all
+make all
 %else
-%make all opt
+make all opt
 %endif
 
 
