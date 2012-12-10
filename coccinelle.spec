@@ -142,3 +142,38 @@ LD_LIBRARY_PATH=. \
 
 %files examples
 %doc demos
+
+
+%changelog
+* Mon Sep 19 2011 Alexandre Lissy <alissy@mandriva.com> 1.0.0.rc7-1
++ Revision: 700362
+- Updating to 1.0.0-rc7
+  Removing %%make in favor of make
+
+* Fri Aug 12 2011 Alexandre Lissy <alissy@mandriva.com> 1.0.0.rc5-1
++ Revision: 694208
+- Updating coccinelle to latest 1.0.0-rc5 release
+
+* Mon Aug 01 2011 Alexandre Lissy <alissy@mandriva.com> 1.0.0.rc4-1
++ Revision: 692680
+- Update sources with rc4
+- .spec cleanup
+- Use %%make macro
+- Updating to rc4
+
+* Fri Jun 24 2011 Alexandre Lissy <alissy@mandriva.com> 1.0.0.rc3-1
++ Revision: 686882
+- Missing man page
+- Updating coccinelle to 1.0.0 rc3
+
+* Mon May 30 2011 Alexandre Lissy <alissy@mandriva.com> 1.0.0.rc2-1
++ Revision: 681850
+- fix: Setting Group to Development/C for all packages built
+- fix: Adding missing BuildRequires on ncurses-devel
+- Changing group to Development/C
+- Introducing coccinelle, a program matching and tranformation for C source code.
+  Package imported from Fedora.
+  Some adjustments to Mandriva.
+  Updating Coccinelle to 1.0.0-rc2
+- Created package structure for coccinelle.
+
