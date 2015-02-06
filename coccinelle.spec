@@ -3,7 +3,7 @@
 %define name coccinelle
 %define versionbase 1.0.0
 %define releasecandidate rc7
-%define release 1
+%define release 2
 %define versioncomplete %{versionbase}-%{releasecandidate}
 
 %if !%opt
