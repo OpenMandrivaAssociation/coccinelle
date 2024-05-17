@@ -1,3 +1,6 @@
+# FIXME why does the dependency generator find all sorts of
+# requirements that are in fact statically linked in?
+%define __requires_exclude ocamlx?\\(.*
 %define _disable_rebuild_configure 1
 
 Name: coccinelle
