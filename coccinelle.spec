@@ -4,7 +4,7 @@
 %define _disable_rebuild_configure 1
 
 Name: coccinelle
-Version: 1.2
+Version: 1.3.0
 Release: 1
 Source0: https://github.com/coccinelle/coccinelle/archive/refs/tags/%{version}.tar.gz
 Summary: Tool for source-to-source transformations of C code
