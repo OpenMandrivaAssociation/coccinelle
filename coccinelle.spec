@@ -12,6 +12,8 @@ URL: https://coccinelle.lip6.fr/
 License: GPL-2.0
 Group: Development/Tools
 Patch1000: https://github.com/thierry-martinez/stdcompat/pull/33/commits/05337180c722fbb54fd51aa40db82555f1aef54f.patch
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: autoconf
 BuildRequires: automake
 BuildRequires: ocaml
